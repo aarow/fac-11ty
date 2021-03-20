@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "dev",
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
