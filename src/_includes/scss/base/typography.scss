@@ -1,0 +1,39 @@
+html {
+  font-family: sans-serif;
+  font-size: ($base-font-size - 4) * 1px;
+  line-height: 1.6;
+
+  @include breakpoint-up("small") {
+    font-size: ($base-font-size - 2) * 1px;
+  }
+  @include breakpoint-up("medium") {
+    font-size: $base-font-size * 1px;
+  }
+  @include breakpoint-up("large") {
+    font-size: ($base-font-size + 2) * 1px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: pixToRem(36);
+}
+h2 {
+  font-size: pixToRem(28);
+}
+h3 {
+  font-size: pixToRem(24);
+}
+h4 {
+  font-size: pixToRem(20);
+}
+
+p {
+  margin-bottom: 1rem;
+}
